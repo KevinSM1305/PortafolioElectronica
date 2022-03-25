@@ -4,14 +4,18 @@
         <h5 class="ae-u-bolder au-mt-2">{{ persona.Nombre }}</h5>
         <p class="ae-u-bolder au-mb-3">{{ persona.Subtitulo }}</p>
         <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">{{ persona.Frase }}</p>
-        <a target= "_blank" href="https://www.twitter.com/{{ persona.Twitter }}" class="ae-u-bolder au-underline">{{ persona.Twitter }}</a>
+        <p class="ae-u-bolder au-mb-3"> Facebook: 
+            <a target= "_blank" href="https://www.facebook.com/{{ persona.Facebook }}" class="ae-u-bolder au-underline">{{ persona.Facebook }}</a>
+        </p>
+        
 </div>
 <div class="ae-grid au-pt-2">
     <div class="ae-grid__item item-lg-8 item-lg--offset-2">
-    <h4 class="ae-u-bolder">Title example</h4>
-    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+    <h4 class="ae-u-bolder">Nuestro emprendimiento.</h4>
+    <p>Este proyecto es el comienzo de una empresa de desarrollo web en múltiples campos. Se esperan buenos resultados a mediano y largo plazo. Este proyecto vincula el conocimiento de productos electrónicos-médicos con la programación y desarrollo web.</p>
     </div>
 </div>
+<!--
 <div class="ae-grid ae-grid--alt au-xs-ptp-1">
     <div class="ae-grid__item--alt item-lg-4">
     <h6 class="ae-u-boldest">About Us</h6>
@@ -27,7 +31,9 @@
     <p class="au-lh-3">Nemo enim ipsam voluptatem quia voluptas</p>
     </div>
 </div>
-<p class="au-flex au-pt-4 group-buttons"><a href="portfolio.html" class="au-mt-4 arrow-button arrow-button--right arrow-button--out">View Our Portfolio<span class="arrow-cont">
+-->
+
+<p class="au-flex au-pt-4 group-buttons"><a routerLink="home" class="au-mt-4 arrow-button arrow-button--right arrow-button--out">Ver nuestro Portafolio<span class="arrow-cont">
         <svg>
         <use xlink:href="assets/img/symbols.svg#arrow"></use>
         </svg></span></a></p>
